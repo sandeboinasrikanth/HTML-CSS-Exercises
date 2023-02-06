@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .row{
+            display: flex;
+            flex-direction: row; 
+            align-items: center;   
+            margin-bottom:-10px;
+            
+        }
+        .profile-picture{
+            height: 50px;
+            width: 50px;
+            object-fit: cover;
+            border-radius: 25px;
+            margin-right: 15px;
+
+        }
+        .info{
+            width: 200px;
+            
+        }
+        .name{
+            font-weight: bold;
+            margin-bottom: 3px;
+
+        }
+        .handle {
+            color: rgb(150, 150, 150);
+            margin-bottom: 5px;
+        }
+        .category {
+            color: rgb(150, 150, 150);
+            font-size: 14px;
+        }
+        .follow-button{
+            background-color: rgb(29,155,240);
+            color: white;
+            border: none;
+            font-size: 16px;
+            font-weight: bold;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 15px;
+            padding-right: 15px;
+            border-radius: 4px;
+            cursor: pointer;
+
+        }
+        .row-container{
+            border: 2px solid black;
+            width: 400px;
+        }
+
+    </style>
+</head>
+<body>
+<div class="row-container">
+    <div class="row">
+        <img class="profile-picture" src="https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554__340.jpg">
+        <div class="info">
+          <p class="name">oliver</p>
+          <p class="handle">the cat</p>
+          <p class="category">Popular</p>
+        </div>
+        <button class="follow-button">Follow</button>
+      </div>
+
+      <div class="row">
+        <img class="profile-picture" src="https://images.pexels.com/photos/39317/chihuahua-dog-puppy-cute-39317.jpeg?auto=compress&cs=tinysrgb&w=600">
+        <div class="info">
+          <p class="name">oliver</p>
+          <p class="handle">the cat</p>
+          <p class="category">Popular</p>
+        </div>
+        <button class="follow-button">Follow</button>
+      </div>
+
+      <div class="row">
+        <img class="profile-picture" src="https://images.pexels.com/photos/825947/pexels-photo-825947.jpeg?auto=compress&cs=tinysrgb&w=600">
+        <div class="info">
+          <p class="name">oliver</p>
+          <p class="handle">the cat</p>
+          <p class="category">Popular</p>
+        </div>
+        <button class="follow-button">Follow</button>
+      </div>
+</div>
+</body>
+</html>

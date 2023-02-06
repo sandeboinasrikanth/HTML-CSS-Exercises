@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            
+        }
+        div{
+            display: flex;
+            
+           
+        }
+        p{
+            text-decoration: underline;
+            padding: 10px;
+            color: blueviolet;
+        }
+        button{
+            width: 80px;
+            font-weight: bold;
+            background-color: rgb(244, 240, 240);
+        }
+        .first-container{
+            background-color: white;
+            border: 2px solid black ;
+            width: 300px;
+            height: 150px;
+            
+        }
+        h3{
+            background-color: green;
+            text-align: center;
+            margin: 10px;
+            margin-bottom: 100px;
+            padding: 10px ;
+            color: aliceblue;
+        }
+        .shadow p{
+            text-decoration: none;
+            background-color: green;
+            color: aliceblue;
+            box-shadow: 5px 5px 10px rgb(51, 50, 50);
+
+        }
+        .margin-padding{
+            background-color:white;
+            border: 1px solid black;
+            padding: 10px;
+            width: 250px;
+            
+        }
+        .margin-padding p{
+            background-color: green;
+            margin-left: 20px;
+            color: white;
+            text-decoration: none;
+              
+        }
+        .margin-padding p:hover{
+            background-color: rgb(242, 174, 14);
+        }
+        .margin-padding p:active{
+            background-color: antiquewhite;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <h1>Pagination</h1>
+    <div>
+        <button>Back</button>
+        <p>1 </p>
+        <p>2</p>
+        <p>3</p>
+        <p>4</p>
+        <p>5</p>
+        <button>Next</button>   
+    </div>
+
+    <h1>Stretch</h1>
+    <div>
+        <div class="first-container">
+            <h3>Stretch</h3> 
+        </div>
+
+    </div>
+
+    <h1>Shadow</h1>
+    <div>
+       <div class="shadow">
+        <p>Shadow</p>
+       </div>
+    </div>
+
+    <h1>Margin and Padding together</h1>
+    <div>
+        <div class="margin-padding">
+            <p >One</p>
+            <p >Two</p>
+            <p >Three</p>
+        </div>
+    </div>
+</body>
+
+</html>

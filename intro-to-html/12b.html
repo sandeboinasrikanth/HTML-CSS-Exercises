@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            /* background-color: red; */
+            border: 2px solid gray;
+            width: 450px;
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+        .first, .second, .third{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            font-size: 24px;
+            padding-bottom: 20px;
+            
+        }
+        .notification{
+            background-color: rgb(76, 76, 251);
+            width: 40px;
+            text-align: center;
+            color: white;
+            border-radius: 20px;
+
+        }
+        .container1{
+            border: 2px solid gray;
+            width: 1000px;
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            background-color: rgb(172, 90, 248);
+            color: white;
+            font-family: Arial;
+            
+            
+            
+
+        }
+        .first-section{
+            width: 150px;
+            font-size: 25px;
+            font-weight: bold;
+        }
+        .second-section, input{
+            flex: 1;
+            margin-top: 0;
+            padding: 15px;
+            width: 600px;
+            border-radius: 20px;
+            font-size: 25px;
+            border: none;
+            
+        }
+        .third-section{
+            width: 150px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            text-align: center;
+            border: 1px solid white;
+            border-radius: 2px;
+            font-size: 25px;
+            
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="first">
+            <div>Home</div>
+            <div class="notification">14</div>
+        </div>
+        <div class="second">
+            <div>Notifications</div>
+            <div class="notification">3</div>
+        </div>
+        <div class="third">
+            <div>Messages</div>
+            <div class="notification">5</div>
+        </div>
+    </div>
+    <br>
+
+    <div class="container1">
+        <div class="first-section">
+           <p> Home</p>
+        </div>
+        <div class="second-section">
+            <input type="text" placeholder="Search">
+        </div>
+        <div class="third-section">
+           <p> Download</p>
+        </div>
+    </div>
+
+    
+</body>
+</html>

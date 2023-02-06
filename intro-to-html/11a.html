@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cat task</title>
+    <style>
+        p{
+            margin-top: 0;
+            margin-bottom: 0;
+            font-family: Arial;
+        }
+        .profile{
+            width: 200px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+        }
+        .profile-picture{
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            margin-bottom: 12px;
+        }
+        .name{
+            font-size: 18px;
+            font-weight: bold;
+            margin-left: 8px;
+            margin-bottom: 5px;
+        }
+        .mutual-friend-row{
+            display: grid;
+            grid-template-columns: 35px 1fr;
+            align-items: center;
+            margin-left: 8px;
+            margin-bottom: 10px;
+            padding-left: 0;
+            
+        }
+        .mutual-friend-picture{
+            height: 28px;
+            width: 28px;
+            border-radius: 14px;
+            
+        }
+        .mutual-friends{
+            
+        }
+        .add-friend-button{
+            background-color: rgb(24, 119, 242);
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+            width: 120px;
+            border: none;
+            color: white;
+            margin-left: 8px;
+            margin-bottom: 10px;
+            margin-top: 10px;
+            border-radius: 4px;
+            font-size: 18px;
+
+        }
+        .grid{
+            display: grid;
+            grid-template-columns: 200px 200px 200px;
+            column-gap: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <div class="profile">
+            <img  class="profile-picture" src="https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554__340.jpg">
+            <p class="name">
+                Oliver
+            </p>
+            <div class="mutual-friend-row">
+                <img class="mutual-friend-picture" src="https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554__340.jpg">
+                <p class="mutual-friends">
+                    2 Mutual Friends
+                </p>
+                <button class="add-friend-button">AddFriend</button>
+            </div>
+        </div>
+
+        <div class="profile">
+            <img  class="profile-picture" src="https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554__340.jpg">
+            <p class="name">
+                Oliver
+            </p>
+            <div class="mutual-friend-row">
+                <img class="mutual-friend-picture" src="https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554__340.jpg">
+                <p class="mutual-friends">
+                    2 Mutual Friends
+                </p>
+                <button class="add-friend-button">AddFriend</button>
+            </div>
+        </div>
+
+        <div class="profile">
+            <img  class="profile-picture" src="https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554__340.jpg">
+            <p class="name">
+                Oliver
+            </p>
+            <div class="mutual-friend-row">
+                <img class="mutual-friend-picture" src="https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554__340.jpg">
+                <p class="mutual-friends">
+                    2 Mutual Friends
+                </p>
+                <button class="add-friend-button">AddFriend</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
